@@ -3,15 +3,11 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Inspiration from '../components/Inspiration'
 import Nft from '../components/Nft'
-import NftPop from './NftPop'
 
-const Home = ({showPop}) => {
+const Home = ({showPop, handlePop}) => {
 
   return (
-    <Box position={'relative'}>
-      <Box position={'fixed'} left={'0'} top={'0'}  width={'100%'} display={showPop ? 'none' : 'block'}>
-        <NftPop showPop={showPop}/>
-      </Box>
+    <Box position={''} onClick={!showPop && handlePop}>
         <Hero/>
         <Inspiration/>
         <Nft/>

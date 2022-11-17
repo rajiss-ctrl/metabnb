@@ -6,19 +6,16 @@ import Home from './pages/Home';
 import PlaceToStay from './pages/place-to-stay/PlaceToStay';
 
 function App() {
-  const [showPop,setShowPop] = useState(false);
-  const handlePop =()=>{
-    if(showPop){
-      setShowPop(!showPop);
-    }else if(!showPop){
-      setShowPop(showPop);
+  const [showPop,setShowPop] = useState(true);
+  const handlePop = () =>{
+    setShowPop(!showPop);
     }
-    return showPop
-  }
+
+  
   return (
     <div>
       <Routes>
-        <Route to={'/'} element={<Layout handlePop={handlePop} showPop={showPop}/>}>
+        <Route path={'/'} element={<Layout handlePop={handlePop} showPop={showPop}/>}>
           <Route index element={<Home handlePop={handlePop} showPop={showPop}/>}/>
           <Route path={'/placetostay'} element={<PlaceToStay handlePop={handlePop} showPop={showPop}/>}/>
         </Route>
