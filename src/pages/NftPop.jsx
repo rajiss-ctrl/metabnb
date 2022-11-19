@@ -16,8 +16,8 @@ const NftPop = ({showPop,handlePop}) => {
           </Box>
           <Box padding={'20px 32px'}>
             <Text marginBottom={'20px'}>Choose your preferred wallet:</Text>
-            <Button marginBottom={'12px'} outline={'0'} border={'1px'} borderColor={'#CFD8DC'} borderRadius={'12px'} width={'100%'} height={'70px'} display={'flex'} alignItems={'center'} justifyContent={'space-between'} padding={'12px 20px'}><Box  display={'flex'} alignItems={'center'} justifyContent={'center'}><Image marginRight={'15px'} width={'40px'} src={Cat}/><Text>Metamask</Text></Box><Image src={RightArrow}/></Button>
-            <Button outline={'0'} border={'1px'} borderColor={'#CFD8DC'} borderRadius={'12px'} width={'100%'} height={'70px'} display={'flex'} alignItems={'center'} justifyContent={'space-between'} padding={'12px 20px'}><Box display={'flex'}  alignItems={'center'} justifyContent={'center'}><Image marginRight={'15px'} width={'40px'} src={Blue}/><Text>WalletConnect</Text></Box><Image src={RightArrow}/></Button>
+            <Button marginBottom={'12px'} outline={'0'} border={'1px'} borderColor={'#CFD8DC'} borderRadius={'12px'} width={'100%'} height={['45px','50px','60px','70px','70px']} display={'flex'} alignItems={'center'} justifyContent={'space-between'} padding={'12px 20px'}><Box  display={'flex'} alignItems={'center'} justifyContent={'center'}><Image marginRight={'15px'} width={'40px'} src={Cat}/><Text>Metamask</Text></Box><Image src={RightArrow}/></Button>
+            <Button outline={'0'} border={'1px'} borderColor={'#CFD8DC'} borderRadius={'12px'} width={'100%'} height={['45px','50px','60px','70px','70px']} display={'flex'} alignItems={'center'} justifyContent={'space-between'} padding={'12px 20px'}><Box display={'flex'}  alignItems={'center'} justifyContent={'center'}><Image marginRight={'15px'} width={'40px'} src={Blue}/><Text>WalletConnect</Text></Box><Image src={RightArrow}/></Button>
           </Box>
         </Box>
     </Box> 

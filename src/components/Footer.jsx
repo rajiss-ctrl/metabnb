@@ -15,7 +15,7 @@ const Footer = () => {
           <Image src={Instagram}/>
           <Image src={Twitter}/>
         </Box>
-        <Text>&copy 2022 Metabnb</Text>
+        <Text>&copy; 2022 Metabnb</Text>
       </Box>
 
       <Box>
