@@ -6,10 +6,10 @@ const Inspiration = () => {
   return (
     <Box>
         <Heading textAlign={'center'} fontFamily={'Red Rose'} margin={'39px 0 43px 0'} fontSize={['20px','20px','30px','40px','48px']} fontWeight={'700'} color={'#000000'} lineHeight={['30px','30px','30px','60px','60px']}>Inspiration for your next adventure</Heading>
-        <Box  marginBottom={'43px'} padding={['0 15px','0 50px','0 10px','0 35px','0']} width={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'} gap={['15px','15px','15px','10px','10px']} flexWrap={'wrap'}>
+        <Box  marginBottom={'43px'} padding={['0 15px','0 50px','0 10px','0 35px','0 100px']} width={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'} gap={['15px','15px','15px','10px','10px']} flexWrap={'wrap'}>
           {CardItems.map((item)=>{
             return(
-              <Box background={'linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%)'} border={'1px'} borderColor={'#D7D7D7'} borderRadius={'15px'} display={'flex'} alignContent={'center'} justifyContent={'center'}  padding={['10px','10px','16px','10px','15px']} width={['100%','100%','331px','225px','290px']} key={item.id}>
+              <Box background={'linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%)'} border={'1px'} borderColor={'#D7D7D7'} borderRadius={'15px'} display={'flex'} alignContent={'center'} justifyContent={'center'}  padding={['10px','10px','16px','10px','15px']} width={['100%','100%','331px','225px','260px']} key={item.id}>
                   <Box width={''}>
                     <Image width={['331px','400px','297','290px','290px']} src={item.img}/>
                     <Box display={'flex'} marginTop={'15px'} justifyContent={'space-between'} alignItems={'center'}>

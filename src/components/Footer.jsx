@@ -15,30 +15,30 @@ const Footer = () => {
           <Image src={Instagram}/>
           <Image src={Twitter}/>
         </Box>
-        <Text>&copy; 2022 Metabnb</Text>
+        <Text fontFamily={'Red Rose'}>&copy; 2022 Metabnb</Text>
       </Box>
 
       <Box>
-        <Heading marginBottom={['10px','10px','10px','22px','23px']} marginTop={['10px','10px','10px','0','0']} fontSize={'18px'} fontWeight={'700'} lineHeight={'22px'}>Community</Heading>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>NFT</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Tokens</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Landlords</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Discord</Text>
+        <Heading fontFamily={'Red Rose'} marginBottom={['10px','10px','10px','22px','23px']} marginTop={['10px','10px','10px','0','0']} fontSize={'18px'} fontWeight={'700'} lineHeight={'22px'}>Community</Heading>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>NFT</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Tokens</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Landlords</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Discord</Text>
       </Box>
       
       <Box>
-        <Heading marginBottom={['10px','10px','10px','22px','23px']} marginTop={['10px','10px','10px','0','0']} fontSize={'18px'} fontWeight={'700'} lineHeight={'22px'}>Places</Heading>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Castle</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Farms </Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Beach</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Learn more</Text>
+        <Heading fontFamily={'Red Rose'} marginBottom={['10px','10px','10px','22px','23px']} marginTop={['10px','10px','10px','0','0']} fontSize={'18px'} fontWeight={'700'} lineHeight={'22px'}>Places</Heading>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Castle</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Farms </Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Beach</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','o','0','8px','10px']}>Learn more</Text>
       </Box>
       <Box>
-        <Heading marginBottom={['10px','10px','10px','22px','23px']} marginTop={['10px','10px','10px','0','0']} fontSize={'18px'} fontWeight={'700'} lineHeight={'22px'}>About us</Heading>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Road map</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Creators  </Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Career</Text>
-        <Text fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Contact us</Text>
+        <Heading fontFamily={'Red Rose'} marginBottom={['10px','10px','10px','22px','23px']} marginTop={['10px','10px','10px','0','0']} fontSize={'18px'} fontWeight={'700'} lineHeight={'22px'}>About us</Heading>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Road map</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Creators  </Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Career</Text>
+        <Text fontFamily={'Red Rose'} fontSize={'14px'} fontWeight={'400'} lineHeight={'35px'} marginBottom={['0','0','0','8px','10px']}>Contact us</Text>
       </Box>
     </Box>
   )

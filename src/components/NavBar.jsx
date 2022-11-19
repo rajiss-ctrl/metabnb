@@ -25,7 +25,7 @@ const NavBar = ({handlePop,showPop}) => {
             </Box>
            </Box>
 
-        <Box zIndex={'1'} paddingLeft={['30px','30px','30px','48px','48px']} paddingTop={['10px','10px','10px','0','0']} paddingBottom={['10px','10px','10px','0','0']} background={['#FFFFFF','#FFFFFF','#FFFFFF','transparent','transparent']} width={['100%']}  position={['absolute','absolute','absolute','static']} display={{base:!open ? 'none' : 'block', sm:!open ? 'none' : 'block',md:!open ? 'none' : 'block',lg:'flex'}} top={['90px','90px','90px','0','0']}  textAlign={'left'} alignItems={'center'} justifyContent={'space-between'}>
+        <Box zIndex={'1'} paddingLeft={['30px','30px','30px','48px','100px']} paddingTop={['10px','10px','10px','0','0']} paddingBottom={['10px','10px','10px','0','0']} background={['#FFFFFF','#FFFFFF','#FFFFFF','transparent','transparent']} width={['100%']}  position={['absolute','absolute','absolute','static']} display={{base:!open ? 'none' : 'block', sm:!open ? 'none' : 'block',md:!open ? 'none' : 'block',lg:'flex'}} top={['90px','90px','90px','0','0']}  textAlign={'left'} alignItems={'center'} justifyContent={'space-between'}>
             <Box paddingRight={['0','0','0','0','185px']}>
             <List display={['block','block','block','flex', ]} fontSize={'20px'} color={'#434343'} gap={['20px','20px','20px','20px','48px']}  justifyContent={'space-between'}>
                 <ListItem ><Link to={'/'}  lineHeight={'25px'}>Home</Link></ListItem>
@@ -35,7 +35,7 @@ const NavBar = ({handlePop,showPop}) => {
             </List>
             </Box>
         <Box display={{base:'flex',md:'block'}}  marginTop={['30px','30px','40px','0']} alignItems={{base:'left', md:'center'}}  justifyContent={['left','center','center','center','center']}>
-            <Button onClick={handlePop} borderRadius={'10px'} lineHeight={'20px'} fontWeight={'400'} fontSize={'16px'} outline={'0'} border={'0'} padding={'15px 26px'} color={'#FFFFFF'} background={'linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)'} _hover={'none'}>Connect wallet</Button>
+            <Button onClick={handlePop} borderRadius={'10px'} lineHeight={'20px'} fontWeight={'400'} fontSize={'16px'} outline={'0'} border={'0'} padding={'15px 26px'} color={'#FFFFFF'} background={'linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)'} _hover={'none'} fontFamily={'Red Rose'}>Connect wallet</Button>
         </Box>
         </Box>
     </Flex>
