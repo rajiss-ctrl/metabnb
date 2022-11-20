@@ -1,9 +1,9 @@
 import { Box, Button, Image, Text } from '@chakra-ui/react'
-import CloseIcon from '../assets/icons/Close.svg'
-import Cat from '../assets/icons/Cat-avatar.svg'
-import Blue from '../assets/icons/Blue-avatar.svg'
+import Cat from '../assets/icons/Cat-avatar.png'
+import Blue from '../assets/icons/Blue-avatar.png'
 import RightArrow from '../assets/icons/right-arrow.svg'
 import React from 'react'
+import { FaTimes } from 'react-icons/fa'
 
 
 const NftPop = ({showPop,handlePop}) => {
@@ -12,7 +12,9 @@ const NftPop = ({showPop,handlePop}) => {
         <Box  width={['90%','90%','90%','600px','600px']} height={['auto','auto','auto','360px','326px']} borderRadius={'16px'} background={'#FFFFFF'}>
           <Box padding={['0 20px','0 20px','0 23px','0 32px','0 32px']} borderBottom={'1px'} borderColor={'#CFD8DC'} height={'78px'} width={'100%'} display={'flex'} justifyContent={'space-between'} alignItems={'center'} paddind={'33px 32px'}>
             <Text>Connect Wallet</Text>
-            <Image onClick={handlePop} width={['25px','25px','30px','30px','30px']} src={CloseIcon}/>
+            <Box onClick={handlePop} fontFamily={'Red Rose'} fontWeight={'200'} fontSize={['16px','20px','20px','20px','20px']}>
+              <FaTimes/>
+            </Box>
           </Box>
           <Box padding={['20px 20px','20px 22px','20px 25px','20px 32px','20px 32px']}>
             <Text marginBottom={'20px'}>Choose your preferred wallet:</Text>

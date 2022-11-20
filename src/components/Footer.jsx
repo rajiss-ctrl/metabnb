@@ -1,8 +1,8 @@
 import { Box, Heading, Image, Text } from '@chakra-ui/react'
-import Logo from '../assets/icons/GroupFooter.svg'
-import Fb from '../assets/icons/facebook-263-721950.svg'
-import Instagram from '../assets/icons/instagram-216-721958.svg'
-import Twitter from '../assets/icons/twitter-241-721979.svg'
+import Logo from '../assets/icons/GroupFooter.png'
+import Fb from '../assets/icons/facebook.png'
+import Instagram from '../assets/icons/instagram.png'
+import Twitter from '../assets/icons/twitter.png'
 import React from 'react'
 
 const Footer = () => {

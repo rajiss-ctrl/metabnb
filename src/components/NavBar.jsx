@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Flex,Box,Image,List,ListItem,Button  } from '@chakra-ui/react'
 import {FaBars, FaTimes } from 'react-icons/fa'
-import Logo from '../assets/icons/Group.svg'
+import Logo from '../assets/icons/Group.png'
 import { Link} from 'react-router-dom'
 
 const NavBar = ({handlePop,showPop}) => {
@@ -11,7 +11,7 @@ const NavBar = ({handlePop,showPop}) => {
     }
   return (
     
-    <Flex  position={['relative','relative','relative','static','static']}  width={'100%'} padding={['20px 0 0 0','20px 0 0 0','20px 0 0 0','43px 60px','43px 100px']} alignItems={'center'} justifyContent={'space-between'} >
+    <Flex  position={['relative','relative','relative','static','static']}  width={'100%'} padding={['20px 0 0 0','20px 0 0 0','20px 0 0 0','43px 60px','43px 80px']} alignItems={'center'} justifyContent={'space-between'} >
         <Link  to={'/'}>
             <Image paddingLeft={['30px','30px','30px','0','0']} width={['150px','150px','200px','200px','200px']} height={'36.67px'} src={Logo} alt="Air bnb"/>
         </Link>
@@ -25,7 +25,7 @@ const NavBar = ({handlePop,showPop}) => {
             </Box>
            </Box>
 
-        <Box zIndex={'1'} paddingLeft={['30px','30px','30px','48px','100px']} paddingTop={['10px','10px','10px','0','0']} paddingBottom={['10px','10px','10px','0','0']} background={['#FFFFFF','#FFFFFF','#FFFFFF','transparent','transparent']} width={['100%']}  position={['absolute','absolute','absolute','static']} display={{base:!open ? 'none' : 'block', sm:!open ? 'none' : 'block',md:!open ? 'none' : 'block',lg:'flex'}} top={['90px','90px','90px','0','0']}  textAlign={'left'} alignItems={'center'} justifyContent={'space-between'}>
+        <Box zIndex={'1'} paddingLeft={['30px','30px','30px','48px','60px']} paddingTop={['10px','10px','10px','0','0']} paddingBottom={['10px','10px','10px','0','0']} background={['#FFFFFF','#FFFFFF','#FFFFFF','transparent','transparent']} width={['100%']}  position={['absolute','absolute','absolute','static']} display={{base:!open ? 'none' : 'block', sm:!open ? 'none' : 'block',md:!open ? 'none' : 'block',lg:'flex'}} top={['90px','90px','90px','0','0']}  textAlign={'left'} alignItems={'center'} justifyContent={'space-between'}>
             <Box paddingRight={['0','0','0','0','185px']}>
             <List display={['block','block','block','flex', ]} fontSize={'20px'} color={'#434343'} gap={['20px','20px','20px','20px','48px']}  justifyContent={'space-between'}>
                 <ListItem ><Link to={'/'}  lineHeight={'25px'}>Home</Link></ListItem>
