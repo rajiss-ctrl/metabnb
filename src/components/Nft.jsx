@@ -1,5 +1,5 @@
 import { Box, Button, Heading, Text,Image } from '@chakra-ui/react'
-import NFTimg from '../assets/images/NftImg.svg'
+import NFTimg from '../assets/images/NftImg.png'
 
 import React from 'react'
 
